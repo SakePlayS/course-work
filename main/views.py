@@ -7,4 +7,4 @@ def index(response):
     return HttpResponse("<h1>test 1/h1>")
 
 def v1(response):
-    return HttpResponse("<h1>test 2</h1>")
+    return HttpResponse("<h1>test 2 </h1>")
