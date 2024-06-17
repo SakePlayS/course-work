@@ -3,8 +3,6 @@ from django.http import HttpResponse
 
 # Create your views here.
 
-def index(response):
-    return HttpResponse("<h1>test 1/h1>")
+def sampler(response):
+    return render(response, 'main/sampler.html')
 
-def v1(response):
-    return HttpResponse("<h1>test 2 </h1>")
